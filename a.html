@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<script src="./jquery.min.js"></script>
+<script>
+    $.ajax({
+        url:'http://b.com/b.php',
+        type:'get',
+        success:function (res) {
+            console.log(res);
+        }
+    })
+</script>
+
+</body>
+</html>
